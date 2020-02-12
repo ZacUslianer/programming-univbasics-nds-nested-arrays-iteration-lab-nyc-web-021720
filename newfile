@@ -1,11 +1,1 @@
-def total_pairs(array)
-total = 0
-row_index = 0
-while row_index < array.count do
-  if array[row_index][0] % 2 == 0 && array[row_index][1] % 2 == 0
-    total += array[row_index][0] + array[row_index][1]
-  end
-end
-row_index += 1
-end
-total
+
